@@ -18,6 +18,7 @@ class DateUtil {
          * @param time
          * @return 时间戳
          */
+        @JvmStatic
         fun dateToStamp(time: String): Long {
             val sdr = SimpleDateFormat(FORMAT_YMDHMS, Locale.CHINA);
             val date = sdr.parse(time)
@@ -28,6 +29,7 @@ class DateUtil {
         /**
          * 将时间戳转换为时间
          */
+        @JvmStatic
         fun stampToDate(longTime: Long): String {
             val simpleDateFormat = SimpleDateFormat(FORMAT_YMDHMS, Locale.CHINA);
             val date = Date(longTime)
