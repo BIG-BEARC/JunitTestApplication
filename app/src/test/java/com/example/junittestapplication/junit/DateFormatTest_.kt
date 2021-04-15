@@ -1,4 +1,4 @@
-package com.example.junittestapplication
+package com.example.junittestapplication.junit
 
 import com.example.junittestapplication.utils.DateUtil.Companion.dateToStamp
 import com.example.junittestapplication.utils.DateUtil.Companion.stampToDate
